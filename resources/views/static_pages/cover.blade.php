@@ -55,5 +55,32 @@ a:active {
                 <!--<![endif]-->
             </object>
         </div>
+        <script>
+            function hasFlash() {
+
+                var swf;
+                if (navigator.userAgent.indexOf("MSIE") > 0) {
+                    try {
+                        var swf = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+                        //alert('已安装flash插件');
+                    }
+                    catch (e) {
+                        //alert('没有安装flash插件');
+                        window.location.href="/home";
+                    }
+                }
+                if (navigator.userAgent.indexOf("Firefox") > 0 || navigator.userAgent.indexOf("Chrome") > 0) {
+                    swf = navigator.plugins["Shockwave Flash"];
+                    if (swf) {
+                        //alert('已安装flash插件');
+                    }else{
+                        //alert('没有安装flash插件');
+                        window.location.href="/home";
+                    }
+                }
+            }
+
+            hasFlash();
+        </script>
     </body>
 </html>
