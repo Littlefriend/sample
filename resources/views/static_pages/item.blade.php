@@ -1,39 +1,17 @@
-@extends('layouts.default')
+@extends('layouts.item')
 
-@section('content')
-<div class="p-wrapper">
-    <div class="p-content">
-        <div class="p-header-box">
-            <div class="p-title-icon">
-            </div>        
-            <div class="p-title">
-                <p id="p-title">迎宾酒</p>
-                <p id="p-subtitle">some description</p>
-            </div>
-        </div>
-        <div class="p-item-list">
-			<div class="wrapper">
-				<ul class="content-list">
-					<li class="p-item">
-						<a href="/item">
-							<div class="p-item-img">
-								<img class="p-img" src="{{ URL::asset('img/product/business/ybj1.jpg') }}">
-							</div>
-						</a>
-					</li>
+@section('link_subtitle','产品中心')
+@section('banner-title',' > 产品详情')
+@section('banner-subtitle','Product Detail')
 
-					<li class="p-item">
-						<a href="">
-							<div class="p-item-img">
-								<img class="p-img" src="{{ URL::asset('img/product/business/ybj2.jpg') }}">
-							</div>
-						</a>
-					</li>
-                    
-				</ul>
-			</div>
-		</div>
-    </div>
-</div>
-
-@stop
+@section('script')
+<script src="/js/product/{{$abbr}}.js"></script>
+<script>
+    $(document).ready(function(){
+			$('#img').zoom();		 
+        });
+        var indextest={{$index}};
+</script>
+<script src="/js/jquery.zoom.min.js"></script>
+<script src="/js/product/item.js"></script>
+@endsection

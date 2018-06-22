@@ -1,27 +1,11 @@
 @extends('layouts.default')
 
 @section('subtitle','-联系我们')
+
+@section('banner-title','联系我们')
+@section('banner-subtitle','Contact Us')
+
 @section('content')
-
-<div class="p-wrapper">
-    <div class="p-content">
-        <div class="p-header-box">
-            <div class="p-title-icon"></div>
-            <div class="p-title">
-              <p id="p-title">联系我们</p>
-              <p id="p-subtitle">Contact Us</p>
-            </div>
-          </div>
-          <div class="p-item-list">
-            <div class="wrapper">
-              <ul class="content-list">
-              @yield('items')
-              </ul>
-
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="container">
       <!-- Example row of columns -->

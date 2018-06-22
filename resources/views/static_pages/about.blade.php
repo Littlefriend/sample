@@ -3,25 +3,6 @@
 @section('subtitle','关于')
 @section('content')
 
-<div class="p-wrapper wrapper-about">
-    <div class="p-content">
-        <div class="p-header-box">
-            <div class="p-title-icon"></div>
-            <div class="p-title">
-              <p id="p-title">关于我们</p>
-              <p id="p-subtitle">About Us</p>
-            </div>
-          </div>
-          <div class="p-item-list">
-            <div class="wrapper">
-              <ul class="content-list">
-              @yield('items')
-              </ul>
-
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class="container">
       <!-- Example row of columns -->

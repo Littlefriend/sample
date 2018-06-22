@@ -34,7 +34,7 @@ function Myapi(){  //构造函数
 
                 length = imgLI.size();
 
-            imgUL.width(W*length ).css('left',dW);
+            imgUL.width(3600).css('left',dW);
 
             //函数调用
             this.appendP(Parent,pointerUL,length );
