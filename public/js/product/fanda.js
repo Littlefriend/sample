@@ -11,7 +11,6 @@ for(i=0;i<num;i++){
 
 $('.content-list').append(result);
 
-$('#fanda').addClass('filter-on');
 var imgType='.png'
 var imageLables="";
 num+=1;

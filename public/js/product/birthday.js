@@ -13,8 +13,6 @@ for(i=0;i<num;i++){
 
 $('.content-list').append(result);
 
-$('#birthday').addClass('filter-on');
-
 var imageLables="";
 var imgType='.png';
 var jclass = "birthday";

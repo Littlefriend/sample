@@ -12,7 +12,6 @@ for(i=0;i<num;i++){
 }
 
 $('.content-list').append(result);
-$('#business').addClass('filter-on');
 
 var imageLables="";
 for(i=0;i<num;i++){

@@ -12,4 +12,3 @@ for(i=0;i<num;i++){
 }
 
 $('.content-list').append(result);
-$('#shuihu').addClass('filter-on');

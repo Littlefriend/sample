@@ -14,5 +14,3 @@ for(i=0;i<num;i++){
 }
 
 $('.content-list').append(result);
-
-$('#wedding').addClass('filter-on');

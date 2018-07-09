@@ -20,7 +20,6 @@ for(i=0;i<num;i++){
 
 $('.content-list').append(result);
 
-$('#jinchai').addClass('filter-on');
 
 var imageLables="";
 num+=1;

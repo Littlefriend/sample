@@ -12,4 +12,17 @@
 
 @section('script')
 <script src="/js/product/{{$abbr}}.js"></script>
+<script>
+    var url = window.location.href;
+    var filters = document.getElementsByClassName('p-filter');
+    var link='';
+    for(var i=0; i<filters.length; i++){
+        link = filters[i].getAttribute("href");
+        if(url.indexOf(link) != -1){
+            filters[i].classList.add("filter-on");
+        }else{
+            filters[i].classList.remove("filter-on");
+        }
+    }
+</script>
 @endsection

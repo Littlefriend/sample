@@ -21,7 +21,6 @@ for(i=0;i<num;i++){
 }
 
 $('.content-list').append(result);
-$('#shengxiao').addClass('filter-on');
 
 var imageLables="";
 for(i=0;i<num;i++){

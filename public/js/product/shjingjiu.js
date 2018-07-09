@@ -29,7 +29,7 @@ for(i=0;i<num;i++){
 
 $('.content-list').append(result);
 
-$('#shjingjiu').addClass('filter-on');
+
 var jclass='shjingjiu';
 var imgType='.png';
 var imageLables="";
