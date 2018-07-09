@@ -5,7 +5,6 @@
 			<a href="/product/business" class="p-filter" id="business">商务款待</a>
 			<a href="/product/wedding" class="p-filter" id="wedding">婚庆喜宴</a>
 			<a href="/product/birthday" class="p-filter" id="birthday">生日庆贺</a>
-			<a href="/product/price" class="p-filter" id="jgd">价格单</a>
 		</div>
 		<hr>
 		<div class="p-buttons">
@@ -20,6 +19,7 @@
 		<hr>
 		<div class="p-buttons">
 			<span>通用类： </span>
+			<a href="/product/dashi" class="p-filter" id="dashi">大师酒</a>
 			<a href="/product/dashi6" class="p-filter" id="dsj6">大师酒6年</a>
 			<a href="/product/dashi10" class="p-filter" id="dsj10">大师酒10年</a>
 			<a href="/product/dashi15" class="p-filter" id="dsj15">大师酒15年</a>

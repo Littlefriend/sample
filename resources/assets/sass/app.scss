@@ -339,15 +339,21 @@ p {
   text-align: center;
   line-height: 30px;
   font-size: 1.5rem;
-  color:white;
   border: none;
   //background-color: rgba(255, 255, 255, 0.3);
   background: black;
 }
 
-.p-filter .filter-on{
-  background:black;
-  color:white;
+.filter-on{
+  background:white;
+  color:black;
+  &:link{
+    color:black;
+  }
+  &:visited{
+    color:black;
+  }
+  
 }
 
 

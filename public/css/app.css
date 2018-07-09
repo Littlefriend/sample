@@ -8688,7 +8688,6 @@ p {
   text-align: center;
   line-height: 30px;
   font-size: 1.5rem;
-  color: white;
   border: none;
   background: black;
 }
@@ -8707,9 +8706,17 @@ p {
   text-decoration: none;
 }
 
-.p-filter .filter-on {
-  background: black;
-  color: white;
+.filter-on {
+  background: white;
+  color: black;
+}
+
+.filter-on:link {
+  color: black;
+}
+
+.filter-on:visited {
+  color: black;
 }
 
 .p-item {
