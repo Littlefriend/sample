@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('subtitle','产品中心')
+@section('subtitle','-产品中心')
 
 @section('banner')
 @include('layouts._banner')

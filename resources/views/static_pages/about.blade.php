@@ -1,6 +1,6 @@
 @extends('layouts.default')
 
-@section('subtitle','关于')
+@section('subtitle','-关于')
 @section('banner-title','关于我们')
 @section('banner-subtitle','About Us')
 
