@@ -4,6 +4,7 @@
 	<title>大师酒坊@yield('subtitle')</title>
     <link rel="stylesheet" href="/css/app.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/flickerplate.css" />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
     <script src="/js/app.js"></script>
     <script src="/js/modernizr-custom-v2.7.1.min.js"></script>
     <script src="/js/jquery-finger-v0.1.0.min.js"></script>
