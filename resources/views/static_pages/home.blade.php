@@ -1,18 +1,35 @@
 @extends('layouts.default')
 
 @section('content')
+<div class="flicker-box">
+    <div class="flicker-example">
+                <ul>
+                    <li data-background="{{ URL::asset('img/home/slide1.jpg') }}">
+                        <!-- <div class="flick-title">Flickerplate</div>
+                        <div class="flick-sub-text">Picture1</div> -->
+                    </li>
+                    <li data-background="{{ URL::asset('img/home/slide2.jpg') }}">
+                        <!-- <div class="flick-title">Flickerplate</div>
+                        <div class="flick-sub-text">Picture2</div> -->
+                    </li>
+                    <li data-background="{{ URL::asset('img/home/slide3.jpg') }}">
+                        <!-- <div class="flick-title">Flickerplate</div>
+                        <div class="flick-sub-text">Picture3</div> -->
+                    </li>
+                </ul>
+    </div>
+</div>
 
-<div id="home-slider">
+<!-- <div id="home-slider">
 
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
   </ol>
 
-  <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="{{ URL::asset('img/home/slide1.jpg') }}" alt="...">
@@ -34,22 +51,22 @@
       </div>
     </div>
 
-  </div>
+  </div> -->
 
   <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
+  </a> -->
+<!-- </div>
+</div> -->
 
-<div class="placehold" id="hold1"></div>
-<div class="placehold" id="hold2"></div>
+<!-- <div class="placehold" id="hold1"></div>
+<div class="placehold" id="hold2"></div> -->
 
 <div class="sec" id="section1">
       <!-- Example row of columns -->
@@ -133,10 +150,10 @@
 @section('script')
 
 <script src="/js/Myapi.js"></script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
         var banner = new Myapi();
         banner.JSON.lagout($('.J_banner1'),2000,0);
     
-</script>
+</script> -->
 <script src="/js/home.js"></script>
 @endsection

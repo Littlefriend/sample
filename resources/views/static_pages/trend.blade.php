@@ -6,7 +6,7 @@
 @section('banner-subtitle','Trend')
 
 @section('content')
-
+@include('layouts._banner')
 <div class="container">
       <!-- Example row of columns -->
 

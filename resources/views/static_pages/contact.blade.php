@@ -2,27 +2,18 @@
 
 @section('subtitle','-联系我们')
 
+
 @section('banner-title','联系我们')
 @section('banner-subtitle','Contact Us')
 
 @section('content')
+@include('layouts._banner')
 
 <div class="container">
-      <!-- Example row of columns -->
-
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </div>
+    <div class="row ">
+        <p>公司名称：上海嘉境酒业有限公司</p>
+        <p>公司地址：上海市黄浦区人民路</p>
+        <p>咨询热线：021-63365006</p>
     </div>
 
     <hr>

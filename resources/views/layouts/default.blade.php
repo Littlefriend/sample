@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>大师酒坊@yield('subtitle')</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <title>大师酒坊@yield('subtitle')</title>
+    <link rel="stylesheet" href="/css/app.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/flickerplate.css" />
     <link rel="shortcut icon" href="/img/favicon.ico" />
     <script src="/js/app.js"></script>

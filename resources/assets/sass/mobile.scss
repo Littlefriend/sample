@@ -15,35 +15,9 @@
     -ms-transition: $property 0.5s;  
     transition: $property 0.5s;
 }
-
 $navbar-color: #fff;
 
-html{
-  @media only screen and (min-width:320px) {
-    font-size:40px;
-  }
-  @media only screen and (min-width:640px) {
-    font-size:24px;
-  }
-  @media only screen and (min-width:750px) {
-    width: 750px;
-    font-size: 20px;
-  }
-  @media only screen and (min-width:1242px) {
-    font-size:10px;
-  }
-}
-body{
-  font-size: 12px;
-  font-size: 1.2rem;
-}
-html,body{
-  width:100%; 
-  height:100%; 
-  margin:0; 
-  padding:0; 
-  background:black;
-}
+html,body{width:100%; height:100%; margin:0; padding:0; background:black;}
 
 div,ul{
   margin:0;
@@ -58,7 +32,7 @@ div,ul{
 
 body {
   background-color:#F5F5F5;
-  padding-top: 6rem;
+  padding-top: 60px;
 }
 
 ::-webkit-scrollbar{
@@ -100,36 +74,28 @@ h2 {
 }
 
 p {
-  font-size: 14px;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
+  font-size: 1.1em;
+  line-height: 1.7em;
   color:white;
 }
 
 /* header */
 
-.navbar-fixed-top {
-  width: 100%;
+.navbar-inverse {
   background-color: $navbar-color;
-  height:5rem;
 }
 
 #logo {
   float: left;
   margin-right: 60px;
+  font-size: 1.7em;
   color: #fff;
   text-decoration: none;
   letter-spacing: -1px;
+  padding-top: 9px;
   font-weight: bold;
   &:hover {
     color: #fff;
-  }
-  img{
-    padding-top:10px;
-    width: 80px;
-    @media only screen and (min-width:1242px) {
-      width:40px;
-    }
   }
 
 }
@@ -160,29 +126,19 @@ p {
   background-color: #000;
   text-decoration: none;
 }
-div.nav-box{
-  width:100%;
-  @media only screen and (min-width:1243px) {
-    width: 80%;
-  }
-}
 
-
-
-//footer
 .footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 4rem;
+  height: 50px;
   background-color: white;
   .container{
     line-height: 100%;
-    margin-top: 1rem;
-    width: 80%;
+    margin-top: 10px;
   }
   box-shadow: 0px -1px 3px #DEDEDE;
-  font-size: 1rem;
+  font-size: 12px;
   z-index: 20;
 }
 
@@ -212,9 +168,9 @@ div.nav-box{
 #section1{
   //position: absolute;
   //top:1000px;
-  height:100rem;
+  height:1000px;
   width:100%;
-  padding-top: 10rem;
+  padding-top: 100px;
   margin: auto;
   background:url('/img/home/sec1.jpg') no-repeat;
   background-size: cover; 
@@ -223,8 +179,8 @@ div.nav-box{
 }
 #section2{
   position: absolute;
-  top:180rem;
-  height:100rem;
+  top:1800px;
+  height:1000px;
   width:100%;
   margin: auto;
   background:url('/img/home/sec2.jpg');
@@ -235,7 +191,7 @@ div.nav-box{
   position: fixed;
   width:100%;
   height:100%;
-  top:1rem;
+  top:10px;
   left: 0;
   right: 0;
   margin:0 auto;
@@ -283,8 +239,8 @@ div.nav-box{
 }
 
 .p-product{
-  padding-top: 2rem;
-  padding-bottom: 2.5rem;
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .clearfloat{
@@ -293,7 +249,7 @@ div.nav-box{
 }
 
 .p-content{
-  width:80%;
+  width:100%;
   height:900px;
   min-height:900px;
   margin:auto;
@@ -303,29 +259,36 @@ div.nav-box{
 .p-header-box{
   width:80%;
   margin: auto;
-  padding-top:3rem;
+  padding-top:30px;
   display:flex;
   justify-content: flex-start;
   color:white;
 }
 
+.content-list{
+  &:after{
+    content:"";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+  }
+  padding-bottom: 50px;
+} 
 
 .p-title-icon{
-  width:0.4rem;
-  height:1.5rem;
-  margin-top:0.2rem;
-  margin-right:0.5rem;
+  width:5px;
+  height:20px;
+  margin-top:10px;
+  margin-right:20px;
   background:white;
 }
 .p-title{
-  width:30rem;
-  #p-subtitle{
-    font-size: 1rem;
-  }
+  width:300px;
 }
 
 #p-title{
-  font: size 1rem;
+  font-size:2rem;
   font-family:Roboto;
   a{
     &:link{
@@ -339,35 +302,32 @@ div.nav-box{
 
 .title-divider{
   width:100%;
-  height:0.2rem;
+  height:2px;
   border:0;
-  margin-left:2.5rem;
-  border-top:solid 0.1rem #BBBBBB;
+  margin-left:25px;
+  border-top:solid 1px #BBBBBB;
 }
 
 .p-daohang{
   width:100%;
   background-color: black;
-  padding-top:2rem;
+  padding-top:20px;
 }
 
 .p-filters{
-  width:80%;
-  @media only screen and (min-width:1243px) {
-    width: 1220px;
-  }
+  width:1220px;
   margin:auto;
-  padding-top: 2rem;
+  padding-top: 20px;
   background: black;
   color:white;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   hr{
     width:100%;
-    margin-top:1rem;
+    margin-top:10px;
   }
   //box-shadow: 0px 1px 3px #DEDEDE;
 }
@@ -395,7 +355,7 @@ div.nav-box{
   height:30px;
   text-align: center;
   line-height: 30px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border: none;
   //background-color: rgba(255, 255, 255, 0.3);
   background: black;
@@ -421,14 +381,10 @@ div.nav-box{
   }
 
   background-color:white;
-  width:100%;
-  @media only screen and (min-width:1243px) {
-    width: 285px;
-  }
-  
-  margin:1rem;
+  width:285px;
+  margin:10px;
   margin-bottom:20px;
-  padding-bottom:1rem;
+  padding-bottom:10px;
   border-radius: 5px;
   box-shadow: 1px 1px 3px #DEDEDE;
 }  
@@ -439,25 +395,14 @@ div.nav-box{
 }
 
 .content-list{
-  &:after{
-    content:"";
-    height: 0;
-    visibility: hidden;
-    clear: both;
-    display: block;
-  }
-  padding-bottom: 5rem;
-  width:100%;
-  @media only screen and (min-width:1243px) {
-    width: 1220px;
-  }
+  width:1220px;
   margin:auto;
   padding-top:20px;
   display: flex;
   flex-flow: row wrap;
   align-content: flex-start;
   background: black;
-} 
+}
 
 .p-img-box{
   width:100%;
@@ -479,7 +424,7 @@ div.nav-box{
 .p-item-info{
   width: 100%;
   margin: auto;
-  margin-top:1rem;
+  margin-top:10px;
   color:white;
   display: flex;
   justify-content: center;
@@ -511,7 +456,7 @@ div.nav-box{
 
 .info-title{
   width: 100%;
-  padding-top: 1rem;
+  padding-top: 10px;
   text-align: center;
 }
 
@@ -584,7 +529,7 @@ div .table-box{
       }
     }
   }
-  padding-bottom: 1rem;
+  padding-bottom: 10px;
   margin-bottom: 50px;
   border-radius: 5px;
 }
@@ -611,7 +556,7 @@ ul,li{list-style-type:none;}
 a:link,a:visited{text-decoration:none; color:#343434;}
 .overhide{overflow:hidden;text-indent:-100em;}
 /*位置属性*/
-.marTop10{margin-top:1rem;}
+.marTop10{margin-top:10px;}
 .left{	float:left;}
 .right{	float:right;}
 .clear {clear: both;}
@@ -621,13 +566,13 @@ a:link,a:visited{text-decoration:none; color:#343434;}
 /*header*/
 #header{ border-bottom:1px solid #383838; height:46px; position:relative;  line-height:46px;color:#FFFFFF; }
 #header h1{font-size:12px; font-weight:normal;}
-#header span{ position:absolute; right:1rem; top:0px;color:#9A9A9A;font-size:12px; font-weight:normal; }
+#header span{ position:absolute; right:10px; top:0px;color:#9A9A9A;font-size:12px; font-weight:normal; }
 #header span a{ color:#9A9A9A; margin:0 3px;}
 
 /*wrapper*/
 #wrapper{ 
   width:700px;  
-  margin-right: 1rem;
+  margin-right: 10px;
 }
 #picSlideWrap{ 
   background:white; 
@@ -637,7 +582,7 @@ a:link,a:visited{text-decoration:none; color:#343434;}
 }
 
 
-.imgnav{ width:450px; margin:1rem auto;}
+.imgnav{ width:450px; margin:10px auto;}
 #content{margin:0px auto;  line-height:19px;}
 #content p{ text-indent:2em; color:#333;}
 
@@ -690,15 +635,15 @@ a:link,a:visited{text-decoration:none; color:#343434;}
   height:116px;
   overflow:hidden; 
   position:relative; 
-  top:1rem; 
+  top:10px; 
   margin:0 auto;
 }
-.picSildeLeft{cursor:pointer; position:absolute; top:32px; left:1rem; z-index:9;}
+.picSildeLeft{cursor:pointer; position:absolute; top:32px; left:10px; z-index:9;}
 .picSildeRight{
   cursor:pointer; 
   position:absolute; 
   top:32px; 
-  right:1rem; 
+  right:10px; 
   z-index:9;
 }
 

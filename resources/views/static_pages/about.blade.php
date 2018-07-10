@@ -1,8 +1,11 @@
 @extends('layouts.default')
 
 @section('subtitle','关于')
-@section('content')
+@section('banner-title','关于我们')
+@section('banner-subtitle','About Us')
 
+@section('content')
+@include('layouts._banner')
 
 <div class="container">
       <!-- Example row of columns -->
