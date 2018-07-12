@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>大师酒坊@yield('subtitle')</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
     <link rel="stylesheet" href="/css/app.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="/css/flickerplate.css" />
     <link rel="shortcut icon" href="/img/favicon.ico" />
